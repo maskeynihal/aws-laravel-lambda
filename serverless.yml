@@ -16,6 +16,8 @@ package:
     - resources/assets/**
     - storage/**
     - tests/**
+    - .env
+    - .env.*
 
 functions:
   # This function runs the Laravel website/API
