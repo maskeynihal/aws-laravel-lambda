@@ -7,6 +7,10 @@ provider:
   # The stage of the application, e.g. dev, production, staging… ('dev' is the default)
   stage: dev
   runtime: provided.al2
+  environment:
+    APP_ENV: dev
+    APP_DEBUG: true # set to false when moving to production
+    APP_KEY: "base64:8SduSo8WWhoF+bvCsWqEpQ5iDnf264JpdYSNiS+uDXI=" # Generate new key using php artisan key:generate
 
 package:
   # Directories to exclude from deployment
